@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>წავიდეთ ნაყინზე?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;800&family=Noto+Serif+Georgian:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <svg class="cone" viewBox="0 0 200 300" role="img" aria-label="ნაყინი">
+    <g class="bob">
+      <polygon points="46,138 154,138 100,292" fill="#e0a25e" stroke="var(--outline)" stroke-width="4" stroke-linejoin="round"/>
+      <g stroke="var(--outline)" stroke-width="2.5" opacity="0.45" stroke-linecap="round">
+        <line x1="62" y1="150" x2="118" y2="252"/>
+        <line x1="84" y1="146" x2="128" y2="226"/>
+        <line x1="138" y1="150" x2="82" y2="252"/>
+        <line x1="116" y1="146" x2="72" y2="226"/>
+      </g>
+      <circle cx="100" cy="112" r="54" fill="#ff9fb8" stroke="var(--outline)" stroke-width="4"/>
+      <path d="M52 132 q4 26 14 8 q4 -12 12 6 q6 16 14 0 q6 -10 14 4 q8 14 14 -2 q6 -10 14 4 q8 16 14 -6 q2 -6 4 -10" fill="#ff9fb8" stroke="var(--outline)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="100" cy="66" r="42" fill="var(--mint)" stroke="var(--outline)" stroke-width="4"/>
+      <g fill="#fff" stroke="none">
+        <rect x="70" y="52" width="10" height="4" rx="2" transform="rotate(30 75 54)" fill="#ffd166"/>
+        <rect x="104" y="46" width="10" height="4" rx="2" transform="rotate(-40 109 48)" fill="#e0456f"/>
+        <rect x="118" y="72" width="10" height="4" rx="2" transform="rotate(60 123 74)" fill="#ffffff"/>
+        <rect x="84" y="80" width="10" height="4" rx="2" transform="rotate(-15 89 82)" fill="#7b5cff"/>
+        <rect x="76" y="108" width="10" height="4" rx="2" transform="rotate(50 81 110)" fill="#ffffff"/>
+        <rect x="112" y="102" width="10" height="4" rx="2" transform="rotate(-30 117 104)" fill="#ffd166"/>
+        <rect x="94" y="122" width="10" height="4" rx="2" transform="rotate(20 99 124)" fill="#7b5cff"/>
+      </g>
+      <path d="M100 26 q6 -18 20 -20" fill="none" stroke="var(--outline)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="100" cy="26" r="11" fill="#d62b4f" stroke="var(--outline)" stroke-width="4"/>
+    </g>
+  </svg>
+
+  <div class="ask">
+    <h1>წავიდეთ ნაყინზე?</h1>
+  </div>
+  <p class="hint ask" id="hint" aria-live="polite"></p>
+  <div class="buttons ask">
+    <button id="yes" type="button">კი, წავიდეთ! 🍦</button>
+    <button id="no" type="button">არა</button>
+  </div>
+
+  <div class="reply" aria-live="polite">
+    <h2>ვიცოდი რომ დამთანხმდებოდი 🍓</h2>
+    <p>როგორი ნაყინი გინდა მითხარი, დრო და ადგილი ჩემზე იყოს 💗</p>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
